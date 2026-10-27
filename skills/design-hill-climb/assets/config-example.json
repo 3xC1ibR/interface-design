@@ -1,0 +1,23 @@
+{
+  "product": "Acme Threads",
+  "context": "A desktop app (sovereign posture: open all day, used by developers) for running many coding-agent threads at once. The left sidebar lists threads grouped by project; the main pane shows the active conversation and a composer. Users scan the sidebar constantly to find the thread that needs them.",
+  "platform": "desktop web / Electron, dark and light themes",
+
+  "screens": ["sidebar--desktop--dark", "sidebar--desktop--light", "thread--desktop--dark", "empty--desktop--dark", "settings--desktop--dark"],
+  "holdout": ["thread-long--desktop--dark", "sidebar--mobile--dark"],
+
+  "references": {
+    "Reference 1": ".design/hill-climb/references/ref-1",
+    "Reference 2": ".design/hill-climb/references/ref-2"
+  },
+  "vocabulary": "DESIGN.md",
+
+  "categories": ["Typography", "Hierarchy", "Spacing & density", "Color & contrast", "Iconography", "Consistency & polish", "Clarity"],
+
+  "min_gain": 0.15,
+  "max_category_drop": 0.3,
+  "target_gap": 0.0,
+  "plateau_rounds": 2,
+  "max_rounds": 8,
+  "fixes_per_round": 3
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "interface-design",
+  "description": "Interface design and blind-critic hill-climbing skills for web, desktop, iOS, and Android applications",
+  "owner": {
+    "name": "r",
+    "email": "hi@rquinonez.com"
+  },
+  "plugins": [
+    {
+      "name": "interface-design",
+      "description": "Design and change user interfaces without drift using a persistent DESIGN.md contract, conceptual-model checks, screenshot verification, and blind critic hill-climbing.",
+      "author": {
+        "name": "r",
+        "email": "hi@rquinonez.com"
+      },
+      "category": "productivity",
+      "source": "."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "base_url": "http://localhost:5173",
+  "out_dir": ".design/shots/current",
+  "viewports": {"desktop": [1440, 900], "mobile": [390, 844]},
+  "color_schemes": ["light", "dark"],
+  "scheme_init": {"dark": "localStorage.setItem('theme', 'dark')", "light": "localStorage.setItem('theme', 'light')"},
+  "device_scale_factor": 1,
+  "storage_state": null,
+  "freeze_time": "2026-01-15T09:41:00",
+  "wait_ms": 250,
+  "screens": [
+    {"name": "home", "path": "/"},
+    {"name": "empty", "path": "/", "before": "localStorage.clear()"},
+    {"name": "thread-long", "path": "/t/fixture-long", "wait_for": "[data-test=message]", "full_page": true},
+    {"name": "composer-focused", "path": "/", "actions": [
+      {"click": "textarea"},
+      {"fill": ["textarea", "A long draft message that wraps onto several lines so we can see how the composer grows and where the send button sits."]},
+      {"hover": "button[aria-label=Send]"},
+      {"wait_ms": 200}
+    ]},
+    {"name": "settings", "path": "/settings", "viewports": ["desktop"], "color_schemes": ["dark"]},
+    {"name": "sidebar", "path": "/", "clip": "nav"}
+  ]
+}

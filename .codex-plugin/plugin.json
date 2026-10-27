@@ -1,0 +1,24 @@
+{
+  "name": "interface-design",
+  "version": "0.1.0",
+  "description": "Design and change user interfaces without drift using a persistent DESIGN.md contract, conceptual-model checks, screenshot verification, and blind critic hill-climbing.",
+  "author": {
+    "name": "r",
+    "email": "hi@rquinonez.com"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Interface Design",
+    "shortDescription": "Design, change, and hill-climb user interfaces without drift.",
+    "longDescription": "Provides two companion skills: interface-design for creating new interfaces and making drift-free changes against a persistent DESIGN.md contract with screenshot verification and token checks, and design-hill-climb for multi-round scored audits against blind screenshot-only critics and reference applications.",
+    "developerName": "r",
+    "category": "Productivity",
+    "capabilities": [
+      "Persistent DESIGN.md contract and token drift checking",
+      "Conceptual-model and emphasis-budget verification",
+      "Deterministic screenshot capture, squint tests, and side-by-side diffs",
+      "Multi-round blind critic hill-climbing against reference applications"
+    ],
+    "defaultPrompt": "Use $interface-design to inspect the design contract, capture before/after screenshots, and make this UI change without drift."
+  }
+}

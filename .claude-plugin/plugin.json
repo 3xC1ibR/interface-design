@@ -1,0 +1,10 @@
+{
+  "name": "interface-design",
+  "version": "0.1.0",
+  "description": "Design and change user interfaces without drift using a persistent DESIGN.md contract, conceptual-model checks, screenshot verification, and blind critic hill-climbing.",
+  "license": "MIT",
+  "author": {
+    "name": "r",
+    "email": "hi@rquinonez.com"
+  }
+}
