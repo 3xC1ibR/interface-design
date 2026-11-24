@@ -5,6 +5,12 @@ description: Audit and iteratively improve an existing interface by hill-climbin
 
 # Design Hill Climb
 
+## Required reading before setup
+
+Before auditing or improving the interface, open and read Anshu Chimala's [How to turn your AI into a world-class designer](https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world) (Lenny's Newsletter, September 1, 2026), once per working context. Apply it through this skill's workflow. If access is limited, use the attributed fallback in [interface-design's required reading](../interface-design/SKILL.md#required-reading-before-design) and report the limitation; do not infer subscription-only material.
+
+The critic brief carries the same reading requirement and a short fallback so fresh critics receive it without inheriting implementation context. Keep that general guidance identical across critics and rounds. The article does not replace the frozen brief, blinded candidates, protected Keep list, regression gates, holdouts, or budget and plateau stopping rules. Its example score target is not a new completion criterion. Implement changes under DESIGN.md and interface-design's token, screenshot, and subtraction rules; exploratory novelty requires an intended change of direction.
+
 This skill turns "make it look better" into an optimization loop with an outside judge:
 
 > capture → blind critique → score → fix a small batch → recapture → accept or revert

@@ -245,8 +245,9 @@ def main():
         prompt = (f"Act as the review sub-agent for this task.\n\n"
                   f"Read the brief at {pdir}/BRIEF.md and follow it exactly. This is round {args.round}. "
                   f"Open every screenshot listed there (they are image files; view them as images). "
-                  f"Do not modify the packet or open anything outside {pdir}; scratch files for measuring "
-                  f"are fine in a separate temp directory. "
+                  f"Do not modify the packet or open anything outside {pdir}, except the required "
+                  f"article linked in the brief; scratch files for measuring are fine in a separate "
+                  f"temp directory. "
                   + ("Do Step 1, then Step 2; open REVEAL.md only after Step 1 is written. "
                      if args.one_pass else "Do Step 1 only, then stop and wait for the reveal message. ")
                   + "Reply in the output format the brief asks for.")

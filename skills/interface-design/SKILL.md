@@ -5,6 +5,22 @@ description: Design and change user interfaces for web, desktop, iOS and Android
 
 # Interface Design
 
+## Required reading before design
+
+Before designing or changing any UI—including a new app, screen, feature UI, restyle, or small edit—open and read Anshu Chimala's [How to turn your AI into a world-class designer](https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world) (Lenny's Newsletter, September 1, 2026). Apply its relevant guidance in the workflow below; do not treat the link as optional background. Read it once per working context, before choosing a direction or editing UI code. Include this requirement when handing design work to another agent.
+
+If fetching fails or a subscription gate limits access, read what is accessible, use this brief paraphrase, and state the access limitation in the work report. The public text checked on November 24, 2026 covers techniques 1–6; technique 7 begins behind the subscription gate.
+
+Chimala's actionable guidance, summarized from that public portion:
+
+- Explore distinct directions using outside inspiration or shell-generated random seeds.
+- Make the brief specific and ambitious; refine it through the user's reactions.
+- Use independent screenshot critics and professional references; keep feedback concrete and iteration bounded.
+- Consider generated imagery and motion where they strengthen the direction; inspect the rendered result.
+- Polish by removing redundant explanation, decoration, and unnecessary custom controls.
+
+**Apply within this skill's contract.** Exploration belongs to Create mode or an explicitly requested redesign. Change mode preserves DESIGN.md, existing tokens and component conventions; the article does not authorize unrelated restyling. Deliberate system-level changes enter through the contract before implementation. Generated assets must serve the product's job and accessibility needs. Screenshot verification, state coverage, and subtraction remain required. Use the existing blind-critique protocol and stopping rules rather than importing an example score target from the article. Treat its model-specific examples and capability claims as dated observations, not permanent limits.
+
 Agents fail at interface work in two opposite ways.
 
 On a blank canvas they **converge on the generic**: the most probable layout, palette and component kit, because each design decision is the likeliest next token.
